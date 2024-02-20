@@ -21,3 +21,19 @@ let num2 = "15";
 console.log(num1 == num2)
 console.log(num1 === num2)//type and value comparision
 // !== not equal
+graduate = true;
+if(graduate  ){
+    //action 
+    console.log(`${userName} is  graduated`)
+} 
+else{
+    console.log(`${userName} is not graduated`)
+}
+if(userId === 123)
+  console.log("Tasnim")
+else if(userId === 124)
+ console.log("Lujain")
+else if (userId === 125)
+ console.log("Batool")
+else
+console.log("Invalid Input")
