@@ -50,7 +50,35 @@
 //     console.log("it's neither Sunday nor Friday ");
     
 // }
-//print numbers from 0-5
+//print numbers from 0-5 using for loop
 for(let i=0 ; i<=5 ; i++){
     console.log(i);
 }
+console.log("********************")
+//while loop
+//print numbers from 5-0
+let j=5;
+while(j>=0){
+    //aaction
+    console.log(j);
+    j--;
+}
+//array 
+let student =["Tasnim" , 1234 , false];
+//length
+console.log("Array Length" , student.length);
+//push => add last
+student.push("Lujain");
+console.log(student);
+student.pop();
+console.log(student);
+//for each
+let hobbies=["sport" , "video game" ,"coding" , "Reading"];
+hobbies.forEach((hobbie)=>{
+  console.log(hobbie);
+})
+//Map 
+let newArr=hobbies.map((hobbie)=>{
+    return hobbie.toUpperCase();
+})
+console.log(newArr);
