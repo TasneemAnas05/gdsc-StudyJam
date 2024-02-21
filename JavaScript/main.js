@@ -124,3 +124,25 @@ const sayMyName = (username) =>{
     crossOriginIsolated.log("Your not the cook")
 }
 sayMyName("Heisenberg")
+//classes
+class Student{
+    studentName;
+    studentId;
+    graduateState;
+    constructor(studentName , studentId , graduateState){
+        this.studentName=studentName;
+        this.studentId = studentId;
+        this.graduateState=graduateState;
+    }
+    printDet =()=>{
+        console.log(`student name is :${this.studentName}`)
+        console.log(`student ID is :${this.studentId}`)
+        //console.log(`student name is :${this.studentName}`)
+        //exp1 ?
+        console.log(this.graduateState ? `${this.studentName}
+         is graduate student`: 
+        `${this.studentName} is not graduate student`) 
+    }
+
+}  
+const studentOne= new Student("Tasnim" , 123 , false)
